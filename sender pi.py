@@ -25,7 +25,7 @@ client.connect(MQTT_BROKER, MQTT_PORT, 60)
 client.loop_start()
 
 # Load the YOLOv5 model
-model = torch.hub.load("yolov5", 'custom', path=r"C:\Users\gurun\Desktop\work\yolov5\runs\train\exp\weights\best.pt", source='local')
+model = torch.hub.load("yolov5", 'custom', path=r"path to your model", source='local')
 
 # Configure the model
 model.cpu()
