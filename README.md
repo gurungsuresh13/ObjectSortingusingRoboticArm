@@ -4,7 +4,7 @@ The project focuses on Object detection using YOLOv5 and the movement of a 5 DOF
 
 #Procedure
 Clone the repository onto your local machine.
-Edit the path to your trained model in 'robotic_arm_control.py' file.
+Edit the path to your trained model in 'sender pi.py' file.
 
 Note: 
 Make sure to check the installed version of the library "paho-mqtt" is Version: 1.6.1
